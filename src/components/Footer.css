@@ -1,0 +1,40 @@
+
+/* Main Footer */
+.footer {
+  width: 100%;
+  padding: 35px 7%;
+  background-color: #0b0d12;
+  border-top: 1px solid #252832;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  text-align: center;
+}
+
+/* Footer Logo */
+.footer-logo {
+  color: #ffffff;
+  font-size: 23px;
+  margin: 0;
+}
+
+.footer-logo span {
+  color: #a78bfa;
+}
+
+/* Footer Description */
+.footer-description {
+  color: #9ca3af;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Copyright */
+.footer-copyright {
+  color: #6b7280;
+  font-size: 12px;
+  margin: 0;
+}

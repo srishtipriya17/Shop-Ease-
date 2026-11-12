@@ -1,0 +1,30 @@
+
+/* Remove default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global website styling */
+body {
+  background-color: #0b0d12;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content area */
+main {
+  min-height: 65vh;
+  padding: 60px 7%;
+  text-align: center;
+}
+
+main h1 {
+  color: #a78bfa;
+  margin-bottom: 15px;
+}
+
+main p {
+  color: #9ca3af;
+}
