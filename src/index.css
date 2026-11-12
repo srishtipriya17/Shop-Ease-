@@ -28,3 +28,96 @@ main h1 {
 main p {
   color: #9ca3af;
 }
+
+
+
+/* Product Search Box */
+.search-box {
+  width: 100%;
+  max-width: 500px;
+  margin: 25px 0;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 13px 16px;
+  background-color: #151821;
+  border: 1px solid #252832;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #a78bfa;
+}
+
+.search-box input::placeholder {
+  color: #9ca3af;
+}
+
+/* Category Filter */
+.category-filter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.category-filter label {
+  color: #d1d5db;
+  font-size: 14px;
+}
+
+.category-filter select {
+  padding: 10px 14px;
+  background-color: #151821;
+  border: 1px solid #252832;
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .category-filter {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+
+
+/* Price Sorting */
+.sort-filter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.sort-filter label {
+  color: #d1d5db;
+  font-size: 14px;
+}
+
+.sort-filter select {
+  padding: 10px 14px;
+  background-color: #151821;
+  border: 1px solid #252832;
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sort-filter select:focus {
+  outline: none;
+  border-color: #a78bfa;
+}
+
+@media (max-width: 500px) {
+  .sort-filter {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
