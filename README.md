@@ -1,16 +1,76 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ShopEase - E-Commerce Website
 
-Currently, two official plugins are available:
+## 1. Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ShopEase is a simple e-commerce website developed using React.js. It allows users to view products, search products, filter products by category and sort them according to price.
 
-## React Compiler
+Users can also add products to the shopping cart, update product quantities and remove products from the cart.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The website uses the Fake Store API to get product information.
 
-## Expanding the ESLint configuration
+## 2. Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Display all products from the API.
+- Search products by their title.
+- Filter products by category.
+- Sort products by price (Low to High and High to Low).
+- View individual product details.
+- Add products to the shopping cart.
+- Increase and decrease product quantity.
+- Remove products from the cart.
+- Display total items and total price.
+- Save cart data using localStorage.
+- Responsive design for different screen sizes.
+- Loading and error messages.
+
+## 3. Technologies Used
+
+- React.js
+- JavaScript
+- HTML
+- CSS
+- React Router DOM
+- Fake Store API
+- Vite
+- Git and GitHub
+
+## 4. API Used
+
+This project uses the Fake Store API to fetch product data.
+
+API Link: https://fakestoreapi.com
+
+Endpoints used:
+
+- /products
+- /products/:id
+- /products/categories
+
+
+## 5. Screenshots
+
+### Home Page
+![Home Page](./screenshot/home.png)
+
+### Product Details Page
+![Product Details](./screenshot/product-details.png)
+
+### Shopping Cart
+![Shopping Cart](./screenshot/cart.png)
+
+
+
+## 6. Cart Management
+
+The shopping cart is managed using React useState.
+
+Product quantities can be increased or decreased. Users can also remove products from the cart.
+
+The cart data is stored in localStorage so that it remains available even after refreshing the page.
+
+## 7. Conclusion
+
+ShopEase helped me understand React components, props, state management, React hooks, API integration and routing.
+
+I also learned how to create reusable components and manage shopping cart functionality in a React application.
