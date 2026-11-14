@@ -69,7 +69,16 @@ Product quantities can be increased or decreased. Users can also remove products
 
 The cart data is stored in localStorage so that it remains available even after refreshing the page.
 
-## 7. Conclusion
+
+
+## Live Demo
+
+Visit the live website: [ShopEase](https://shop-ease-gilt.vercel.app/)
+
+
+
+
+## 8. Conclusion
 
 ShopEase helped me understand React components, props, state management, React hooks, API integration and routing.
 
