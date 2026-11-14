@@ -1,7 +1,7 @@
 
 # ShopEase - E-Commerce Website
 
-## 1. Project Overview
+##  Project Overview
 
 ShopEase is a simple e-commerce website developed using React.js. It allows users to view products, search products, filter products by category and sort them according to price.
 
@@ -9,7 +9,7 @@ Users can also add products to the shopping cart, update product quantities and 
 
 The website uses the Fake Store API to get product information.
 
-## 2. Features
+##  Features
 
 - Display all products from the API.
 - Search products by their title.
@@ -24,7 +24,7 @@ The website uses the Fake Store API to get product information.
 - Responsive design for different screen sizes.
 - Loading and error messages.
 
-## 3. Technologies Used
+##  Technologies Used
 
 - React.js
 - JavaScript
@@ -35,7 +35,7 @@ The website uses the Fake Store API to get product information.
 - Vite
 - Git and GitHub
 
-## 4. API Used
+## API Used
 
 This project uses the Fake Store API to fetch product data.
 
@@ -48,7 +48,24 @@ Endpoints used:
 - /products/categories
 
 
-## 5. Screenshots
+## AI Assistance
+
+During the development of this project, I used AI tools as a supporting resource to improve my coding and development process.
+
+AI assistance was mainly used for:
+
+- **CSS Styling:** Getting suggestions to improve the website's design, layout, spacing, hover effects, and responsive styling.
+- **Feature Implementations:** Getting guidance on product filtering and sorting, shopping cart quantity management, and LocalStorage integration.
+- **API Integration:** Understanding API requests, handling loading states, and managing errors.
+- **Debugging:** Finding and fixing errors during development.
+- **Code Understanding:** understanding code logic, and improving implementation.
+
+I reviewed the suggested code, made changes according to my project requirements, and tested the features to understand how they work.
+
+AI was used as a learning and development assistant, while I remained involved in building and understanding the project.
+
+
+##  Screenshots
 
 ### Home Page
 ![Home Page](./screenshot/home.png)
@@ -61,7 +78,7 @@ Endpoints used:
 
 
 
-## 6. Cart Management
+##  Cart Management
 
 The shopping cart is managed using React useState.
 
@@ -78,7 +95,7 @@ Visit the live website: [ShopEase](https://shop-ease-gilt.vercel.app/)
 
 
 
-## 8. Conclusion
+##  Conclusion
 
 ShopEase helped me understand React components, props, state management, React hooks, API integration and routing.
 
