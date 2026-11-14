@@ -19,7 +19,7 @@ function ProductCard({ product, onAddToCart }) {
         </h3>
 
         <p className="product-price">
-          ${product.price.toFixed(2)}
+          ₹{product.price.toFixed(2)}
         </p>
 
         {/* Product Rating */}

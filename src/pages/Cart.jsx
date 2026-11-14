@@ -54,7 +54,7 @@ function Cart({ cartItems, onUpdateQuantity, onRemoveItem }) {
 
                   <h3>{item.title}</h3>
 
-                  <p>${item.price.toFixed(2)}</p>
+                  <p>₹{item.price.toFixed(2)}</p>
 
                   {/* Quantity Controls */}
                   <div className="quantity-controls">
@@ -91,7 +91,7 @@ function Cart({ cartItems, onUpdateQuantity, onRemoveItem }) {
 
                 {/* Price according to quantity */}
                 <h3>
-                  ${(item.price * item.quantity).toFixed(2)}
+                  ₹{(item.price * item.quantity).toFixed(2)}
                 </h3>
 
               </div>
@@ -114,7 +114,7 @@ function Cart({ cartItems, onUpdateQuantity, onRemoveItem }) {
             </p>
 
             <h3>
-              Total Amount: ${totalAmount.toFixed(2)}
+              Total Amount: ₹{totalAmount.toFixed(2)}
             </h3>
 
             <button className="checkout-button">

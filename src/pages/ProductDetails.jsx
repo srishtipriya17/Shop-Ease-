@@ -54,7 +54,7 @@ function ProductDetails({ onAddToCart }) {
 
         <p>{product.description}</p>
 
-        <h2>${product.price.toFixed(2)}</h2>
+        <h2>₹{product.price.toFixed(2)}</h2>
 
         <p>Category: {product.category}</p>
 
